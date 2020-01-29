@@ -1,11 +1,11 @@
 class Triangle
-  attr_accessor :a, :b, :c
+  attr_accessor :sidea, :sideb, :sidec
 
-  def initialize(a, b, c)
-    check_for_errors(a, b, c)
-    @a = a
-    @b = b
-    @c = c
+  def initialize(sidea, sideb, sidec)
+    check_for_errors(sidea, sideb, sidec)
+    @sidea = sidea
+    @sideb = b
+    @sidec = c
   end
 
   def kind
